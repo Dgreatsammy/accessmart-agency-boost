@@ -15,10 +15,17 @@ const HeroSection = () => {
               Comprehensive Digital Business Solutions for Solopreneurs, Startups, SMEs, and Business Enthusiasts—both locally and in the diaspora.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="btn-primary flex items-center">
+              <Button 
+                className="btn-primary flex items-center"
+                onClick={() => window.open("https://forms.gle/VhX8VhWBdLH9YvVS7", "_blank")}
+              >
                 Get Started <ArrowRight className="ml-2" size={18} />
               </Button>
-              <Button variant="outline" className="btn-outline">
+              <Button 
+                variant="outline" 
+                className="btn-outline"
+                onClick={() => window.open("https://forms.gle/VhX8VhWBdLH9YvVS7", "_blank")}
+              >
                 Learn More
               </Button>
             </div>

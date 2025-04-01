@@ -15,7 +15,10 @@ const CTASection = () => {
               Whether you're looking to launch your business, refine your strategies, or scale to new heights, Accessmart Solutions is here to make your vision a reality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-primary-500 hover:bg-gray-100 font-medium py-2 px-6 rounded-md transition-colors duration-300">
+              <Button 
+                className="bg-white text-primary-500 hover:bg-gray-100 font-medium py-2 px-6 rounded-md transition-colors duration-300"
+                onClick={() => window.open("https://forms.gle/VhX8VhWBdLH9YvVS7", "_blank")}
+              >
                 Schedule a Consultation
               </Button>
               <Button 
