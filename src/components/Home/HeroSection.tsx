@@ -25,8 +25,8 @@ const HeroSection = () => {
           </div>
           <div className="hidden lg:block">
             <img
-              src="/lovable-uploads/760e838b-1ff0-44d6-a006-6dfad0c91fee.png"
-              alt="Accessmart Solutions Logo"
+              src="https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I"
+              alt="Business Meeting"
               className="rounded-lg shadow-2xl animate-fade-in"
             />
           </div>
