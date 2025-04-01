@@ -46,8 +46,9 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2">
+            <img src="/lovable-uploads/760e838b-1ff0-44d6-a006-6dfad0c91fee.png" alt="Accessmart Solutions Logo" className="h-10" />
             <span className="font-heading text-xl sm:text-2xl font-bold text-primary-500">
-              AccessMart<span className="text-accent-400">Solutions</span>
+              Accessmart<span className="text-accent-400">Solutions</span>
             </span>
           </Link>
 
@@ -62,7 +63,12 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="btn-primary">Get Started</Button>
+            <Button 
+              className="btn-primary"
+              onClick={() => window.open("https://wa.me/2348039479877", "_blank")}
+            >
+              Get Started
+            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -94,7 +100,15 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="btn-primary w-full">Get Started</Button>
+            <Button 
+              className="btn-primary w-full"
+              onClick={() => {
+                window.open("https://wa.me/2348039479877", "_blank");
+                toggleMenu();
+              }}
+            >
+              Get Started
+            </Button>
           </div>
         </div>
       </div>
